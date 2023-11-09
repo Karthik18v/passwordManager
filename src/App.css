@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.image {
+  width: 120px;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #9ba9eb;
+  min-height: 100vh;
+  background-size: cover;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-right: 5%;
+}
+.add-password {
+  background-color: #454f84;
+  padding-left: 10px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.website-logo {
+  position: absolute;
+  width: 30px;
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.password-image {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/password-manager-lg-img.png');
+  width: 350px;
+}
+.newPassword-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #5763a5;
+  padding: 30px;
+  align-items: center;
+}
+.web-container {
+  margin-bottom: 10px;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.add-button {
+  background-color: #0b69ff;
+  color: white;
+  border: 0px;
+  width: 60px;
+}
+.password-container {
+  margin-top: 10px;
+  background-color: #5763a5;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 30px;
+  align-items: center;
+  color: white;
+}
+.noPassword-image {
+  width: 400px;
+}
+.noPassword-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.show-passwords {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: flex-end;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.search-image {
+  width: 20px;
+  background-color: white;
+}
+.password-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.password-details-container {
+  display: flex;
+  justify-content: space-between;
+}

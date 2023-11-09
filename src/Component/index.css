@@ -1,0 +1,60 @@
+.delete-button {
+  width: 20px;
+}
+.starsLogo {
+  height: 20px;
+  width: 100px;
+}
+
+.password-container {
+  display: flex;
+}
+.website-user-details {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  background-color: aliceblue;
+}
+.delete-image {
+  width: 20px;
+}
+.delete-button {
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.password-list-item {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  align-items: center;
+  color: white;
+  margin: 10px;
+}
+.website {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-button {
+  height: 20px;
+  background-color: transparent;
+  border: 0px;
+}
+.paragraph {
+  font-size: 10px;
+  margin: 2px;
+}
+.first-letter {
+  background-color: skyblue;
+  margin: 5px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+}
